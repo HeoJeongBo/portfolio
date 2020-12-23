@@ -22,7 +22,7 @@ jobs:
           path: node_modules
           key: ${{ runner.OS }}-build-${{ hashFiles('**/yarn-lock.json') }}
           restore-keys: /
-            ${{ runner.OS }}-buid-
+            ${{ runner.OS }}-build-
             ${{ runner.OS }}-
 
       - name: Install dependencies
