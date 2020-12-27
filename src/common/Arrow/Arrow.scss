@@ -1,0 +1,39 @@
+.arrow-container {
+  span {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(45deg);
+    animation: animate 2s infinite;
+    margin: -10px;
+
+    &:nth-child(1) {
+      animation-delay: -0.2s;
+    }
+    &:nth-child(2) {
+      animation-delay: -0.4s;
+    }
+  }
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.arrow-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  cursor: pointer;
+}

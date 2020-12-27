@@ -1,0 +1,41 @@
+.introduction-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  .declare {
+    font-size: 3rem;
+    width: 100%;
+    .name {
+      color: burlywood;
+      font-style: italic;
+    }
+  }
+  .sub-description {
+    font-size: 1.2rem;
+    span {
+      color: chocolate;
+    }
+  }
+  .go-project {
+    width: 100%;
+    text-align: right;
+    font-size: 1.5rem;
+    vertical-align: middle;
+    display: flex;
+    justify-content: flex-end;
+    svg {
+      background: cadetblue;
+      padding: 4px;
+      padding-left: margin-left;
+      border-radius: 50%;
+      margin-left: 6px;
+    }
+    & > div {
+      display: flex;
+      cursor: pointer;
+    }
+  }
+}
