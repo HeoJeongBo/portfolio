@@ -1,0 +1,16 @@
+.project-wrapper {
+  background-color: black;
+  color: white;
+  font-size: 5rem;
+  height: 100vh;
+  animation: slidein 2s ease-out;
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+  }
+  to {
+    margin-right: 0;
+  }
+}
